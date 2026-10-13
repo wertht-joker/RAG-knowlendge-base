@@ -1,0 +1,36 @@
+# ===== Web 框架 =====
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+
+# ===== 配置管理 =====
+pydantic>=2.6
+pydantic-settings>=2.2
+python-dotenv>=1.0
+
+# ===== RAG / LLM =====
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.17
+openai>=1.40
+
+# ===== 向量库（Milvus） =====
+pymilvus>=2.4.0
+
+# ===== 本地 Embedding =====
+# 首次安装会拉取 torch（CPU 版约 200MB），耗时较长属正常
+sentence-transformers>=2.7
+
+# ===== 文档解析 =====
+pymupdf>=1.24          # PDF
+python-docx>=1.1       # Word
+openpyxl>=3.1          # Excel
+
+# ===== 数据库 =====
+SQLAlchemy>=2.0
+bcrypt>=4.0
+PyJWT>=2.8
+
+# ===== 工具 =====
+tqdm>=4.66
+numpy>=1.26

@@ -1,0 +1,38 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== 密钥（绝不能提交）=====
+.env
+backend/.env
+*.pem
+
+# ===== 数据库 / 数据文件 =====
+*.db
+*.sqlite
+backend/kb.db
+
+# ===== 向量库 / 对象存储本地数据卷（运行时生成，绝不提交）=====
+volumes/
+backend/volumes/
+
+# ===== 上传的文档 =====
+uploads/
+backend/uploads/
+
+# ===== 前端 =====
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+# 根目录误生成的空 lock 文件（前端 lock 在 frontend/ 内，保留）
+/package-lock.json
+
+# ===== 日志 / 缓存 =====
+*.log
+.DS_Store
+.idea/
+.vscode/
